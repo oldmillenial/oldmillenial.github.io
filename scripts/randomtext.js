@@ -12,5 +12,5 @@ request.onload = function () {
     // add the random line in a div
     document.getElementById('phrase').innerHTML = randomLine;
 };
-request.open('GET', '../oldmillenial.txt', true);
+request.open('GET', '../content/phrases.txt', true);
 request.send();
